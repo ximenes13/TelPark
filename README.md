@@ -69,7 +69,7 @@ Once you've installed the dependencies, you can run both Python scripts to check
 
 ---
 
-# 🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome! If you'd like to improve the project, feel free to:
 
