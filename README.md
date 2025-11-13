@@ -1,7 +1,7 @@
 # 🚗 Telpark Automation Testing
 
 Automated UI tests using Python, Selenium, and Pytest for core user actions on the [Telpark web application](https://app.telpark.com).  
-This project was developed as part of a learning experience for automation tests.
+This project was developed as a learning experience for automation testing.
 
 ---
 
@@ -18,10 +18,10 @@ This test suite currently includes:
 
 ## 🛠️ Technologies Used
 
-- **Python 3.10+**
-- **Selenium WebDriver** – for browser automation
-- **Pytest** – for structuring and running test cases
-- **PyCharm** – development environment
+- **Python 3.10+**  
+- **Selenium WebDriver** – browser automation  
+- **Pytest** – test framework  
+- **PyCharm** – recommended IDE  
 - **Google Chrome** + **Chromedriver**
 
 ---
@@ -36,8 +36,8 @@ This test suite currently includes:
 - **test_vehicle.py**  
   ➕ Adds a new vehicle to the user profile  
   🗑️ Removes an existing vehicle  
-  ♻️ Reuses session via login fixture  
-  ⏱️ Avoids `sleep()` in favor of explicit waits
+  ♻️ Reuses session via a login fixture  
+  ⏱️ Uses explicit waits (`WebDriverWait`) for reliability; `sleep()` is minimized
 
 ---
 
@@ -45,9 +45,8 @@ This test suite currently includes:
 
 ### Step 1: Clone the Repository
 
-To get started, clone this repository to your local machine using the following command:
-
 `git clone https://github.com/your-username/TelPark.git`
+
 
 ### Step 2: Dependencies
 
@@ -64,8 +63,8 @@ Install Selenium and pytest as well:
 
 Once you've installed the dependencies, you can run both Python scripts to check the automation tests for login and vechiles.
 
-`python3 login_test.py` <br>
-`python3 vehicle_test.py`
+`pytest login_test.py` <br>
+`pytest vehicle_test.py`
 
 ---
 
