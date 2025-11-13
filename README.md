@@ -79,4 +79,4 @@ Contributions are welcome! If you'd like to improve the project, feel free to:
 4. Push to your branch (`git push origin feature-name`).
 5. Submit a pull request.
 
-If you find bugs or have feature requests, please [open an issue](https://github.com/ximenes13/Calculator/issues).
+If you find bugs or have feature requests, please [open an issue](https://github.com/ximenes13/TelPark/issues).
